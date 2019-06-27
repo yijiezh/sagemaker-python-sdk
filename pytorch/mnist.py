@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 logger.addHandler(logging.StreamHandler(sys.stdout))
 
-
+feaw we 
 class Net(nn.Module):
     # Based on https://github.com/pytorch/examples/blob/master/mnist/main.py
     def __init__(self):
