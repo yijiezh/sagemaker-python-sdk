@@ -53,7 +53,7 @@ UNSUPPORTED_FRAMEWORK_VERSION_ERROR = (
     "{} framework does not support version {}. Please use one of the following: {}."
 )
 
-VALID_PY_VERSIONS = ["py2", "py3"]
+VALID_PY_VERSIONS = ["py2", "py3", "py36"]
 VALID_EIA_FRAMEWORKS = ["tensorflow", "tensorflow-serving", "mxnet", "mxnet-serving"]
 VALID_ACCOUNTS_BY_REGION = {"us-gov-west-1": "246785580436", "us-iso-east-1": "744548109606"}
 ASIMOV_VALID_ACCOUNTS_BY_REGION = {"us-iso-east-1": "886529160074"}
